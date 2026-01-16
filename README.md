@@ -6,15 +6,15 @@ This project analyzes the Boutique Hotel in Turkey dataset from Kaggle to uncove
 ## BUSINESS QUESTIONS  
 
 1. **Customer Demographics and Behavior**  
-    - What is the distribution of customer age, gender, and country?
-    - How do customer demographics relate to booking volume and guest count?
+    - Distribution of customers by age, gender, and country
+    - Relationship between demographics, bookings, and guest counts
 2. **Room Utilization and Performance**  
-    - Which rooms are booked most frequently, and which generate the most revenue?
-    - How does occupancy vary by room type, capacity, or base price?
-    - What is the average stay duration and number of guests per booking by room type?
+    - Booking volume and revenue by room type
+    - Occupancy by room capacity and base price
+    - Average stay duration and guests per booking
 3. **Revenue and Payment Analysis**  
-    - How do total bookings, guest counts, and revenue vary across seasons and months?
-    - Which payment methods are most commonly used during different seasons?
+    - Bookings, guests, and revenue by month and season
+    - Payment method usage across seasons
 
 ---
 
@@ -88,7 +88,7 @@ The dataset uses a relational model with fact tables (`orders`) and dimension ta
 ---
 
 ## TOOLS USED  
-
-**Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preprocessing, including handling missing values, removing duplicates, correcting data types, and validating relational integrity.  
-**MySQL:** Applied for querying and analyzing the relational data to answer business questions and derive insights.  
-**Tableau:** Utilized to visualize key metrics and trends through clear, interactive dashboards and charts.  
+- **MySQL:** Used to design the relational schema and perform analytical queries using joins, aggregations, and filtering to answer business questions and extract insights. 
+- **Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preprocessing, including handling missing values, removing duplicates, correcting data types, and validating relational integrity.  
+- **Markdown (.md)**: Used to document the analysis report, key findings, and business recommendations in a structured and readable format.  
+- **Tableau:** Utilized to visualize key metrics and trends through clear, interactive dashboards and charts.  
