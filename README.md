@@ -38,7 +38,9 @@ This project analyzes the Boutique Hotel in Turkey dataset from Kaggle to uncove
 
 ## DATA MODEL OVERVIEW 
 
-The dataset uses a relational model with fact tables (`orders`) and dimension tables (`customers`, `rooms`) connected via **primary and foreign keys** to support accurate joins and analysis.
+The dataset uses a relational model with fact tables (`orders`) and dimension tables (`customers`, `rooms`) connected via **primary and foreign keys** to support accurate joins and analysis.  
+
+![Boutique Hotel Database Schema](schema_diagram.jpg)
 
 ---
 
