@@ -93,4 +93,3 @@ The dataset uses a relational model with fact tables (`orders`) and dimension ta
 - **MySQL:** Used to design the relational schema and perform analytical queries using joins, aggregations, and filtering to answer business questions and extract insights. 
 - **Python (Pandas) and Jupyter Notebook:** Used for data cleaning and preprocessing, including handling missing values, removing duplicates, correcting data types, and validating relational integrity.  
 - **Markdown (.md)**: Used to document the analysis report, key findings, and business recommendations in a structured and readable format.  
-- **Tableau:** Utilized to visualize key metrics and trends through clear, interactive dashboards and charts.  
